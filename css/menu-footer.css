@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+body
+{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.menu
+{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background: rgb(237, 237, 237);
+    position: fixed;
+    display: flex;
+    z-index: 3;
+}
+
+.menu.abajo
+{
+    background: rgba(255, 186, 186, 0.95);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: 3s;
+}
+
+.Htitulo
+{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: -6px;
+    margin-left: 10px;
+    color: #14005c;
+}
+
+.Hul
+{
+    display: flex;
+    margin-top: 14px;
+}
+
+.Hul .Hopciones
+{
+    list-style: none;
+}
+
+.Hul .Hopciones a
+{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.Hul .Hopciones a:hover
+{
+    color: #7600a1;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.separador
+{
+    width: 100%;
+    height: 50px;
+    background: beige;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.footer
+{
+    width: 100%;
+    height: 50vh;
+    background-color: #5243a9;
+    padding: 40px;
+    padding-left: 60px;
+}
+
+.partes
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*...................................................*/
+
+.subpartes1
+{
+    width: 260px;
+    height: 290px;
+    background-color: #ff757500;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subpartes1 h1
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.subpartes1 a
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.subpartes1 a:hover
+{
+    color: rgb(242, 255, 0);
+}
+
+/*...................................................*/
+
+.subpartes2
+{
+    width: 350px;
+    height: 290px;
+    background-color: #ff757500;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subpartes2 h1
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.subpartes2 a
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.subpartes2 a:hover
+{
+    color: rgb(242, 255, 0);
+}
+
+/*...................................................*/
+
+.subpartes3
+{
+    width: 350px;
+    height: 290px;
+    background-color: #ff757500;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subpartes3 h1
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.subpartes3 a
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.subpartes3 a:hover
+{
+    color: rgb(242, 255, 0);
+}
+
+/*...................................................*/
+
+.marca
+{
+    width: 92%;
+    height: 60px;
+    background-color: #ff5d5d00;
+}
+
+.marca p
+{
+    color: white;
+    font-size: 20px;
+    padding-top: 16px;
+    font-family: 'Raleway', sans-serif;
+}

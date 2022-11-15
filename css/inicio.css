@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+.presentacion1
+{
+    width: 100%;
+    height: 102vh;
+    background-color: aqua;
+    background: url('../multimedia/ropaelegante.jpg');
+    background-attachment: fixed;
+    margin-top: -60px;
+    z-index: 1;
+}
+
+.presentacion1::before
+{
+    display: inline-block;
+    content: '';
+    width: 50vw;
+    height: 102vh;
+    background: linear-gradient(90deg, #14005c, rgba(255, 255, 255, 0));
+    z-index: 1;
+}
+
+.texto
+{
+    color: white;
+    transform: translate(10%, -166%);
+    width: 600px;
+    z-index: 2;
+}
+
+.texto h1
+{
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.texto p
+{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -35px;
+    z-index: 2;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.presentacion2
+{
+    width: 100%;
+    height: 110vh;
+}
+
+.orden 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.orden h1
+{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.tarjetas
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.tarjeta1
+{
+    padding: 20px;
+    transition: 2s;
+}
+
+.tarjeta1:hover
+{
+    box-shadow: rgba(240, 208, 46, 0.4) -5px 5px, rgba(240, 208, 46, 0.3) -10px 10px, rgba(240, 208, 46, 0.2) -15px 15px, rgba(240, 208, 46, 0.1) -20px 20px, rgba(240, 208, 46, 0.05) -25px 25px;
+}
+
+.contenido
+{
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    transform: translate(10%, 345%);
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+
+.contenido h2
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+/*...................................................*/
+
+.tarjeta2
+{
+    padding: 20px;
+    transition: 2s;
+}
+
+.tarjeta2:hover
+{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px -5px, rgba(240, 46, 170, 0.3) 10px -10px, rgba(240, 46, 170, 0.2) 15px -15px, rgba(240, 46, 170, 0.1) 20px -20px, rgba(240, 46, 170, 0.05) 25px -25px;
+}
+
+.contenido2
+{
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.507);
+    transform: translate(-5%, -135%);
+    border-left: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contenido2 h2
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.presentacion3
+{
+    width: 100%;
+    height: 102vh;
+    background-color: rgb(32, 32, 32);
+}
+
+.orden2 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.orden2 h1
+{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.categorizantes
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.categorias
+{
+    width: 25vw;
+    height: 60vh;
+    background-color: azure;
+    overflow: hidden;
+    position: relative;
+}
+
+.categorias .titles1
+{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 4px 0px black;
+    transform: translate(45%, 385%);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    z-index: 2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.categorias .titles2
+{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 4px 0px black;
+    transform: translate(40%, 385%);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    z-index: 2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img2
+{
+    margin-top: -2px;
+}
+
+.categorias .titles3
+{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 4px 0px black;
+    transform: translate(82%, 385%);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    z-index: 2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.categorias::before
+{
+    display: inline-block;
+    content: '';
+    width: 25vw;
+    height: 60vh;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.719);
+    border-top: 10px solid rgb(239, 199, 54);
+    transform: translateY(100%);
+    transition: 1s;
+    z-index: 2;
+}
+
+.categorias:hover::before
+{
+    transform: translateY(0%);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.presentacion4
+{
+    width: 100%;
+    height: 102vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.orden3 
+{
+    margin-left: 50px;
+}
+
+.orden3 h1
+{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.orden3 p
+{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.cajones
+{
+    display: flex;
+    margin-left: 50px;
+}
+
+.cajon1
+{
+    width: 35vw;
+    height: 70vh;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.cajon1 h1
+{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.texbox
+{
+    padding-left: 65px; 
+}
+
+.texbox h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.texbox input
+{
+    width: 25vw;
+    border: 1px solid rgb(216, 216, 216);
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+}
+/*
+.texbox input::-webkit-input-placeholder
+{
+    
+}
+*/
+.texbox input:focus
+{
+    border: 1px solid #ff7878;
+}
+
+.texbox button
+{
+    border: none;
+    background-color: #ff7878;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.texbox button:hover
+{
+    background-color: black;
+}
+
+/*...................................................*/
+
+.cajon2
+{
+    width: 35vw;
+    height: 70vh;
+    background: #ff7575;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cajon2 h2
+{
+    color: #ffffff;
+    position: absolute;
+    z-index: 2;
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    transform: translate(52%, 94%);
+}
+
+.cajon2::before
+{
+    display: inline-block;
+    content: '';
+    width: 35vw;
+    height: 70vh;
+    position:absolute;
+    background-color: rgba(255, 0, 38, 0.409);
+    z-index: 1;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.redes
+{
+    position: fixed;
+    width: 4.5vw;   
+    height: 30vh;
+    overflow: hidden;
+    background-color: #ff828200;
+    transform: translate(2100%, 110%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    z-index: 3;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.red1
+{
+    width: 4.5vw; 
+    height: 72px;
+    background-color: #5fe7ff;
+}
+
+.red2
+{
+    width: 4.5vw; 
+    height: 72px;
+    background-color: #ff5f84;
+}
+
+.red3
+{
+    width: 4.5vw; 
+    height: 72px;
+    background-color: #6a5fff;
+}
+
