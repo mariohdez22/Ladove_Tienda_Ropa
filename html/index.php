@@ -1,11 +1,11 @@
-<?php /*mario es gay*/
+<?php 
 require_once('../template/menu-footer.php');
 $url1 = '../css/menu-footer.css'; 
-$url2 = '../css/inicio.css'; /*a mario le gusta la poronga*/
+$url2 = '../css/inicio.css'; 
 $link1 = './index.php'; //vayamos a dormir por favor
 $link2 = './index.php'; //hola soy dennis otra ves
 Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
-//prrassssssssssssssssssssssssssssssssssssssssssssssssssssssswe
+
 ?>
 
     <span class="redes"> 
