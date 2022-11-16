@@ -6,3 +6,9 @@ $link1 = '../index.php';
 $link2 = '../index.php';
 Page::headerTemplate($url1,$url2,$link1,$link2);
 ?>
+
+
+<?php
+require_once('../../css/menu-footer.css');
+Page::footerTemplate('../../js/animaciones');
+?>
