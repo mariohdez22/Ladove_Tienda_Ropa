@@ -59,7 +59,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
                     <img class="img2" src="../multimedia/hombres.jpg" width="390" height="620" alt="">
                 </div>
                 <div class="categorias">
-                    <a href=""  class="titles3">NIÑ@S</a>
+                    <a href="../html/ninios/ropa-ninios.php"  class="titles3">NIÑ@S</a>
                     <img src="../multimedia/xdxdxdxd.jpg" width="390" height="430" alt="">
                 </div>
             </div>
