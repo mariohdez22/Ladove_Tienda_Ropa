@@ -1,4 +1,4 @@
-<?php
+<?php /*mario es gay*/
 require_once('../template/menu-footer.php');
 $url1 = '../css/menu-footer.css'; 
 $url2 = '../css/inicio.css'; 
