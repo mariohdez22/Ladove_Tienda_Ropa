@@ -1,12 +1,12 @@
-<?php /*mario es gay*/
+<?php 
 require_once('../template/menu-footer.php');
 $url1 = '../css/menu-footer.css'; 
-$url2 = '../css/inicio.css'; /*a mario le gusta la poronga*/
+$url2 = '../css/inicio.css'; 
 $link1 = './index.php'; //vayamos a dormir por favor
 $link2 = './index.php'; //hola soy dennis otra ves
 Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
-//prrassssssssssssssssssssssssssssssssssssssssssssssssssssssswe
-?>
+
+?> 
 
     <span class="redes"> 
         <div class="red1"></div>
@@ -55,11 +55,11 @@ Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
                     <img src="../multimedia/mujeres.jpg" width="390" height="550" alt="">
                 </div>
                 <div class="categorias">
-                    <a href=""  class="titles2">HOMBRES</a>
+                    <a href="../html/hombres/ropa-hombre.php"  class="titles2">HOMBRES</a>
                     <img class="img2" src="../multimedia/hombres.jpg" width="390" height="620" alt="">
                 </div>
                 <div class="categorias">
-                    <a href=""  class="titles3">NIÑ@S</a>
+                    <a href="../html/ninios/ropa-ninios.php"  class="titles3">NIÑ@S</a>
                     <img src="../multimedia/xdxdxdxd.jpg" width="390" height="430" alt="">
                 </div>
             </div>
@@ -107,5 +107,3 @@ require_once('../template/menu-footer.php');
 Page::footerTemplate('../js/animaciones.js');
 ?>
     
-</body>
-</html>
