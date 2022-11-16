@@ -1,7 +1,7 @@
 <?php /*mario es gay*/
 require_once('../template/menu-footer.php');
 $url1 = '../css/menu-footer.css'; 
-$url2 = '../css/inicio.css'; 
+$url2 = '../css/inicio.css'; /*a mario le gusta la poronga*/
 $link1 = './index.php'; 
 $link2 = './index.php'; //hola soy dennis otra ves
 Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
