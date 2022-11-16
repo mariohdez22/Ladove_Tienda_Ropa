@@ -1,7 +1,7 @@
 <?php
 require_once('../../../template/menu-footer.php');
 $url1 = '../../../css/menu-footer.css'; 
-$url2 = '../../../css/mujeres/categorias/camisas-hombre.css'; 
+$url2 = '../../../css/hombres/categorias/camisas-hombre.css'; 
 $link1 = '../../index.php'; 
 $link2 = '../../index.php'; 
 Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
@@ -47,7 +47,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
 
     </section>
 
-<script src="../../../js/mujeres/camisas/tarjetas-camisa.js" type="module"></script>
+<script src="../../../js/hombres/camisas/tarjetas-camisas.js" type="module"></script>
 
 <?php
 require_once('../../../template/menu-footer.php');

@@ -23,28 +23,28 @@ export const datosN =
 
 export const datos1 = 
 [
-    {id: 1, enunciado: 'verddiz', img: '../../../multimedia/vestido1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.50).toFixed(2)},
-    {id: 1, enunciado: 'glamossia', img: '../../../multimedia/vestido2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (75.00).toFixed(2)},
-    {id: 1, enunciado: 'devatta', img: '../../../multimedia/vestido3.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (80.40).toFixed(2)},
-    {id: 1, enunciado: 'obscurare', img: '../../../multimedia/vestido4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (90.00).toFixed(2)},
+    {id: 1, enunciado: 'tipoB', img: '../../../multimedia/saco1.jpg', link:'../../../html/hombres/ropa-hombre.php', precio: (70.50).toFixed(2)},
+    {id: 1, enunciado: 'clasicoC', img: '../../../multimedia/saco2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (75.00).toFixed(2)},
+    {id: 1, enunciado: 'formalF', img: '../../../multimedia/saco3.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (80.40).toFixed(2)},
+    {id: 1, enunciado: 'clasicoG', img: '../../../multimedia/saco4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (90.00).toFixed(2)},
 
-    {id: 2, enunciado: 'azula oscu', img: '../../../multimedia/vestido5.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (65.50).toFixed(2)},
-    {id: 2, enunciado: 'marana suel', img: '../../../multimedia/vestido6.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (85.00).toFixed(2)},
-    {id: 2, enunciado: 'mentis rosea', img: '../../../multimedia/vestido7.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (91.00).toFixed(2)},
-    {id: 2, enunciado: 'carmesy', img: '../../../multimedia/vestido8.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (91.00).toFixed(2)},
+    {id: 2, enunciado: 'chaqueta', img: '../../../multimedia/saco5.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (65.50).toFixed(2)},
+    {id: 2, enunciado: 'clasicoA', img: '../../../multimedia/saco6.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (85.00).toFixed(2)},
+    {id: 2, enunciado: 'Azulate', img: '../../../multimedia/saco7.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (91.00).toFixed(2)},
+    {id: 2, enunciado: 'carmesy', img: '../../../multimedia/saco8.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (91.00).toFixed(2)},
 ]
 
 export const datos2 = 
 [
-    {id: 1, enunciado: 'amarille', img: '../../../multimedia/camisa1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (45.00).toFixed(2)},
-    {id: 1, enunciado: 'silence', img: '../../../multimedia/camisa2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (50.00).toFixed(2)},
-    {id: 1, enunciado: 'camissola', img: '../../../multimedia/camisa3.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (40.00).toFixed(2)},
-    {id: 1, enunciado: 'camissela', img: '../../../multimedia/camisa4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (45.50).toFixed(2)},
+    {id: 1, enunciado: 'amarille', img: '../../../multimedia/camisah1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (45.00).toFixed(2)},
+    {id: 1, enunciado: 'silence', img: '../../../multimedia/camisah2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (50.00).toFixed(2)},
+    {id: 1, enunciado: 'camissola', img: '../../../multimedia/camisah3.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (40.00).toFixed(2)},
+    {id: 1, enunciado: 'camissela', img: '../../../multimedia/camisah4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (45.50).toFixed(2)},
 
-    {id: 2, enunciado: 'camistra', img: '../../../multimedia/camisa5.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (55.00).toFixed(2)},
-    {id: 2, enunciado: 'innvierne', img: '../../../multimedia/camisa6.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (48.00).toFixed(2)},
-    {id: 2, enunciado: 'toppacy', img: '../../../multimedia/camisa7.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (35.00).toFixed(2)},
-    {id: 2, enunciado: 'estylace', img: '../../../multimedia/camisa8.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (37.00).toFixed(2)},
+    {id: 2, enunciado: 'camistra', img: '../../../multimedia/camisah5.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (55.00).toFixed(2)},
+    {id: 2, enunciado: 'innvierne', img: '../../../multimedia/camisah6.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (48.00).toFixed(2)},
+    {id: 2, enunciado: 'toppacy', img: '../../../multimedia/camisah7.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (35.00).toFixed(2)},
+    {id: 2, enunciado: 'estylace', img: '../../../multimedia/camisah8.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (37.00).toFixed(2)},
 ]
 
 export const datos3 =
