@@ -10,7 +10,7 @@ export const datosN =
     {id: 2, enunciado: 'camissola', img: '../../../multimedia/cal3.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.40).toFixed(2)},
     {id: 2, enunciado: 'camissela', img: '../../../multimedia/ci4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (90.00).toFixed(2)},
 
-    {id: 3, enunciado: 'abrigo celis', img: '../../../multimedia/cin1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (30.50).toFixed(2)},
+    {id: 3, enunciado: 'abrigo celis', img: '../../../multimedia/ca1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (30.50).toFixed(2)},
     {id: 3, enunciado: 'abrigo calist', img: '../../../multimedia/cal2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (40.00).toFixed(2)},
     {id: 3, enunciado: 'sky tacon', img: '../../../multimedia/al8.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.40).toFixed(2)},
     {id: 3, enunciado: 'zapas nb', img: '../../../multimedia/ca4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (90.00).toFixed(2)},

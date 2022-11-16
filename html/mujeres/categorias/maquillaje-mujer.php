@@ -21,11 +21,11 @@ Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
 
                 <div class="apartado-filtro">
 
-                    <div class="boton"><button id="momjeans">Mom Jeans</button></div>
-                    <div class="boton"><button id="leggins">Leggins</button></div>
-                    <div class="boton"><button id="acampanados">Acampanados</button></div>
-                    <div class="boton"><button id="skinny">Skinny Jeans</button></div>
-                    <div class="boton"><button id="sailorjeans">Sailor Jeans</button></div>
+                    <div class="boton"><button id="brochas">Brochas</button></div>
+                    <div class="boton"><button id="labial">Labial</button></div>
+                    <div class="boton"><button id="sombra">Sombra</button></div>
+                    <div class="boton"><button id="base">Bases</button></div>
+                   
 
                 </div>
 
@@ -47,7 +47,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
 
     </section>
 
-<script src="../../../js/mujeres/pantalon/tarjetas-pantalon.js" type="module"></script>
+<script src="../../../js/mujeres/maquilla/tarjetas-maquillaje.js" type="module"></script>
 
 <?php
 require_once('../../../template/menu-footer.php');
