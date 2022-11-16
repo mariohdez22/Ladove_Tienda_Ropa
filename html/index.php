@@ -5,6 +5,7 @@ $url2 = '../css/inicio.css'; /*a mario le gusta la poronga*/
 $link1 = './index.php'; //vayamos a dormir por favor
 $link2 = './index.php'; //hola soy dennis otra ves
 Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
+//prrassssssssssssssssssssssssssssssssssssssssssssssssssssssswe
 ?>
 
     <span class="redes"> 
