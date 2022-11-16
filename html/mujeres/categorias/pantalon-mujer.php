@@ -25,7 +25,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
                     <div class="boton"><button id="leggins">Leggins</button></div>
                     <div class="boton"><button id="acampanados">Acampanados</button></div>
                     <div class="boton"><button id="skinny">Skinny Jeans</button></div>
-                    <div class="boton"><button id="sailorjeans">Sailos Jeans</button></div>
+                    <div class="boton"><button id="sailorjeans">Sailor Jeans</button></div>
 
                 </div>
 

@@ -34,7 +34,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2);
             </div>
             <div class="pedazo">
                 <div class="ropa3">
-                    <a href="">Calzado</a>
+                    <a href="categorias/calzado-mujer.php">Calzado</a>
                     <img src="../../multimedia/tacones.jpg" width="800" height="450" alt="">
                 </div>
                 <div class="ropa4">
