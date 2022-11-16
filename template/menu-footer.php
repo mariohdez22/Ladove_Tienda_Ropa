@@ -65,6 +65,9 @@ class Page {
         </footer>
 
         <script src="'.$url.'"></script>
+
+    </body>
+    </html>
             
         ');
     }

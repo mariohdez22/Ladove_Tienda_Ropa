@@ -107,5 +107,3 @@ require_once('../template/menu-footer.php');
 Page::footerTemplate('../js/animaciones.js');
 ?>
     
-</body>
-</html>
