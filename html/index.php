@@ -2,12 +2,12 @@
 require_once('../template/menu-footer.php');
 $url1 = '../css/menu-footer.css'; 
 $url2 = '../css/inicio.css'; /*a mario le gusta la poronga*/
-$link1 = './index.php'; 
+$link1 = './index.php'; //vayamos a dormir por favor
 $link2 = './index.php'; //hola soy dennis otra ves
 Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
 ?>
 
-    <span class="redes">
+    <span class="redes"> 
         <div class="red1"></div>
         <div class="red2"></div>
         <div class="red3"></div>
