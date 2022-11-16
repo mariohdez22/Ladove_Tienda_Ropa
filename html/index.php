@@ -6,7 +6,7 @@ $link1 = './index.php'; //vayamos a dormir por favor
 $link2 = './index.php'; //hola soy dennis otra ves
 Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
 
-?>
+?> 
 
     <span class="redes"> 
         <div class="red1"></div>
