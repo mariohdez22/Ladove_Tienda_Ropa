@@ -58,6 +58,6 @@ Page::headerTemplate($url1,$url2,$link1,$link2);
     </section>
 
 <?php
-require_once('../../css/menu-footer.css');
+require_once('../../template/menu-footer.php');
 Page::footerTemplate('../../js/animaciones.js');
 ?>
