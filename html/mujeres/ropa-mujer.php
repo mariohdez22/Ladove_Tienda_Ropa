@@ -44,11 +44,11 @@ Page::headerTemplate($url1, $url2, $link1, $link2);
             </div>
             <div class="pedazo">
                 <div class="ropa5">
-                    <a href="">Ropa Interior</a>
+                    <a href="categorias/interior-mujer.php">Ropa Interior</a>
                     <img src="../../multimedia/interior.jpg" width="755" height="405" alt="">
                 </div>
                 <div class="ropa6">
-                    <a href="">Maquillaje</a>
+                    <a href="categorias/maquillaje-mujer.php">Maquillaje</a>
                     <img src="../../multimedia/maquillaje.jpg" width="705" height="455" alt="">
                 </div>
             </div>
