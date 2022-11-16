@@ -38,7 +38,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2);
                     <img src="../../multimedia/tacones.jpg" width="800" height="450" alt="">
                 </div>
                 <div class="ropa4">
-                    <a href="">Accesorios</a>
+                    <a href="categorias/accesorios-mujer.php">Accesorios</a>
                     <img src="../../multimedia/collares.jpg" width="800" height="450" alt="">
                 </div>
             </div>

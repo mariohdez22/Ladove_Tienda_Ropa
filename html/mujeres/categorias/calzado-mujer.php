@@ -47,7 +47,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
 
     </section>
 
-<script src="../../../js/mujeres/calzado/tarjetas-calzado.js" type="module"></script>
+<script src="../../../js/mujeres/calzados/tarjetas-calzado.js" type="module"></script>
 
 <?php
 require_once('../../../template/menu-footer.php');

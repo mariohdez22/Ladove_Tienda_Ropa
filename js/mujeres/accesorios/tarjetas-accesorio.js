@@ -1,4 +1,4 @@
-import {datosN, datos1, datos2, datos3, datos4, datos5} from "./datos-calzado"
+import {datosN, datos1, datos2, datos3, datos4, datos5} from "./datos-accesorio.js"
 
 const $secciones1 = document.querySelectorAll('.secciones')[0]
 const $secciones2 = document.querySelectorAll('.secciones')[1]
@@ -55,7 +55,7 @@ tarjetas(datosN , "inicial")
 
 //--------------------------------------------------o
 
-const categoria1 = document.getElementById("zapatillas") 
+const categoria1 = document.getElementById("reloj") 
 
 categoria1.addEventListener( "click", ()=> {
 
@@ -85,7 +85,7 @@ categoria1.addEventListener( "click", ()=> {
 
 //--------------------------------------------------o
 
-const categoria2 = document.getElementById("tenis")
+const categoria2 = document.getElementById("brazaletes")
 
 categoria2.addEventListener( "click", () => {
 
@@ -115,7 +115,7 @@ categoria2.addEventListener( "click", () => {
 
 //--------------------------------------------------o
 
-const categoria3 = document.getElementById("tacones")
+const categoria3 = document.getElementById("aritos")
 
 categoria3.addEventListener( "click", () => {
 
@@ -145,7 +145,7 @@ categoria3.addEventListener( "click", () => {
 
 //--------------------------------------------------o
 
-const categoria4 = document.getElementById("sandalias")
+const categoria4 = document.getElementById("cinturones")
 
 categoria4.addEventListener( "click", () => {
 
@@ -175,7 +175,7 @@ categoria4.addEventListener( "click", () => {
 
 //--------------------------------------------------o
 
-const categoria5 = document.getElementById("botas")
+const categoria5 = document.getElementById("collares")
 
 categoria5.addEventListener( "click", () => {
 
