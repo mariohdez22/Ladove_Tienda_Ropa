@@ -28,27 +28,27 @@ Page::headerTemplate($url1, $url2, $link1, $link2);
                     <img src="../../multimedia/camisahombremenu.jpg"  width="800" height="450" alt="">
                 </div>
                 <div class="ropa2">
-                    <a href="">Pantalones</a>
+                    <a href="categorias/pantalones-hombre.php">Pantalones</a>
                     <img src="../../multimedia/pantalonhombre.jpg" width="800" height="580" alt="">
                 </div>
             </div>
             <div class="pedazo">
                 <div class="ropa3">
-                    <a href="">Calzado</a>
+                    <a href="categorias/calzado-hombre.php">Calzado</a>
                     <img src="../../multimedia/jeans-hombre.jpg" width="800" height="450" alt="">
                 </div>
                 <div class="ropa4">
-                    <a href="">Accesorios</a>
+                    <a href="categorias/accesorios-hombre.php">Accesorios</a>
                     <img src="../../multimedia/corbata.jpg" width="800" height="450" alt="">
                 </div>
             </div>
             <div class="pedazo">
                 <div class="ropa5">
-                    <a href="">Ropa Interior</a>
+                    <a href="categorias/interior-hombre.php">Ropa Interior</a>
                     <img src="../../multimedia/ropainteriorhombre.jpg" width="755" height="405" alt="">
                 </div>
                 <div class="ropa6">
-                    <a href="">Relojes</a>
+                    <a href="categorias/accesorios-hombre.php">Relojes</a>
                     <img src="../../multimedia/relojes.jpg" width="705" height="455" alt="">
                 </div>
             </div>
