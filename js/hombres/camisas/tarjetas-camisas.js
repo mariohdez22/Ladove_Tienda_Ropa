@@ -55,7 +55,7 @@ tarjetas(datosN , "inicial")
 
 //--------------------------------------------------o
 
-const categoria1 = document.getElementById("vestido") 
+const categoria1 = document.getElementById("Sacos") 
 
 categoria1.addEventListener( "click", ()=> {
 
@@ -85,7 +85,7 @@ categoria1.addEventListener( "click", ()=> {
 
 //--------------------------------------------------o
 
-const categoria2 = document.getElementById("camisa")
+const categoria2 = document.getElementById("Camisas")
 
 categoria2.addEventListener( "click", () => {
 
@@ -115,7 +115,7 @@ categoria2.addEventListener( "click", () => {
 
 //--------------------------------------------------o
 
-const categoria3 = document.getElementById("abrigo")
+const categoria3 = document.getElementById("Abrigos")
 
 categoria3.addEventListener( "click", () => {
 
@@ -145,7 +145,7 @@ categoria3.addEventListener( "click", () => {
 
 //--------------------------------------------------o
 
-const categoria4 = document.getElementById("chaqueta")
+const categoria4 = document.getElementById("Formal")
 
 categoria4.addEventListener( "click", () => {
 
@@ -175,7 +175,7 @@ categoria4.addEventListener( "click", () => {
 
 //--------------------------------------------------o
 
-const categoria5 = document.getElementById("deportivo")
+const categoria5 = document.getElementById("Deportivas")
 
 categoria5.addEventListener( "click", () => {
 
