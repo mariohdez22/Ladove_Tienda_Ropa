@@ -346,14 +346,14 @@
     border: 5px solid rgba(198, 198, 198, 0.454);
     z-index: 1;
     transform: rotate(60deg);
-    margin-left: -720px;
+    margin-left: -750px;
     margin-top: 100px;
     transition: 1s;
 }
 
 .ropa5:hover::before
 {
-    margin-left: -140px;
+    margin-left: -10px;
     margin-top: -50px;
 }
 
