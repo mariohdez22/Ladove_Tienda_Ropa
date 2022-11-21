@@ -24,11 +24,11 @@ Page::headerTemplate($url1,$url2,$link1,$link2);
 
             <div class="pedazo">
                 <div class="ropa1">
-                    <a href="categorias/camisas-mujer.php">Camisas</a>
+                    <a href="categorias/camisasNinios.php">Camisas</a>
                     <img src="../../multimedia/ninios/niñosCamisas2.png"  width="650" height="450" alt="">
                 </div>
                 <div class="ropa2">
-                    <a href="">Pantalones</a>
+                    <a href="categorias/pantalonesNinios.php">Pantalones</a>
                     <img src="../../multimedia/ninios/niñosPantalones.png" width="800" height="470" alt="">
                 </div>
             </div>
