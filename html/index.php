@@ -55,7 +55,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
                     <img src="../multimedia/mujeres.jpg" width="390" height="550" alt="">
                 </div>
                 <div class="categorias">
-                    <a href=""  class="titles2">HOMBRES</a>
+                    <a href="../html/hombres/ropa-hombre.php"  class="titles2">HOMBRES</a>
                     <img class="img2" src="../multimedia/hombres.jpg" width="390" height="620" alt="">
                 </div>
                 <div class="categorias">
