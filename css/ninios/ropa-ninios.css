@@ -327,7 +327,7 @@
     font-family: 'Raleway', sans-serif;
     color: white;
     text-shadow: 3px 3px 0px rgb(75, 75, 75);
-    font-weight: 2;
+    font-weight: 300;
     font-size: 70px;
     transform: translate(15%, 110%);
     z-index: 2;
