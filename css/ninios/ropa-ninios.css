@@ -316,7 +316,6 @@
     background-color: #8bff7a;
     width: 46.1vw;
     height: 39vh;
-    margin-right: 20px;
     overflow: hidden;
     position: relative;
 }
@@ -353,7 +352,7 @@
 
 .ropa5:hover::before
 {
-    margin-left: -10px;
+    margin-left: -140px;
     margin-top: -50px;
 }
 
