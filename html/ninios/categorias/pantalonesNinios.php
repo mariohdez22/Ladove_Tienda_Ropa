@@ -45,7 +45,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2);
 
     </section>
 
-<script src="../../../js/ninio/Pantalones/PantalonesTargetas.js" type="module"></script>
+<script src="../../../js/ninio/Pantalones/targetasPantalones.js" type="module"></script>
 
 
 <?php

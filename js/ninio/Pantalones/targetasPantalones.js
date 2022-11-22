@@ -1,4 +1,4 @@
-import {datosN, datos1, datos2} from "./DatosPantalones.js"
+import {datosN, datos1, datos2} from "./PantalonesDatos.js"
 
 const $secciones1 = document.querySelectorAll('.secciones')[0]
 const $secciones2 = document.querySelectorAll('.secciones')[1]
