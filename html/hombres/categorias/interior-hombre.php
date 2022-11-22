@@ -22,7 +22,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
                 <div class="apartado-filtro">
 
                     <div class="boton"><button id="Boxer">Boxer</button></div>
-                    <div class="boton"><button id="Briefs">Briefs</button></div>
+                    <div class="boton"><button id="Natacion">Natacion</button></div>
                     <div class="boton"><button id="Suspensorio">Suspensorio</button></div>
                     <div class="boton"><button id="Calzones">Calzones</button></div>
                     
@@ -47,7 +47,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
 
     </section>
 
-<script src="../../../js/hombres/ropa-interior/tarjetas-interiores.js" type="module"></script>
+<script src="../../../js/hombres/ropa-interior/tarjetas-interior.js" type="module"></script>
 
 <?php
 require_once('../../../template/menu-footer.php');

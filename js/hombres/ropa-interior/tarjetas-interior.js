@@ -1,4 +1,4 @@
-import {datosN, datos1, datos2, datos3, datos4, datos5} from "./datos-reloj.js"
+import {datosN, datos1, datos2, datos3, datos4, datos5} from "./datos-interior.js"
 
 const $secciones1 = document.querySelectorAll('.secciones')[0]
 const $secciones2 = document.querySelectorAll('.secciones')[1]
@@ -55,7 +55,7 @@ tarjetas(datosN , "inicial")
 
 //--------------------------------------------------o
 
-const categoria1 = document.getElementById("Bolsillo") 
+const categoria1 = document.getElementById("Boxer") 
 
 categoria1.addEventListener( "click", ()=> {
 
@@ -85,7 +85,7 @@ categoria1.addEventListener( "click", ()=> {
 
 //--------------------------------------------------o
 
-const categoria2 = document.getElementById("Analogico")
+const categoria2 = document.getElementById("Natacion")
 
 categoria2.addEventListener( "click", () => {
 
@@ -115,7 +115,7 @@ categoria2.addEventListener( "click", () => {
 
 //--------------------------------------------------o
 
-const categoria3 = document.getElementById("Digital")
+const categoria3 = document.getElementById("Suspensorio")
 
 categoria3.addEventListener( "click", () => {
 
@@ -145,7 +145,7 @@ categoria3.addEventListener( "click", () => {
 
 //--------------------------------------------------o
 
-const categoria4 = document.getElementById("Triple")
+const categoria4 = document.getElementById("Calzones")
 
 categoria4.addEventListener( "click", () => {
 
@@ -172,3 +172,4 @@ categoria4.addEventListener( "click", () => {
     part2.classList.replace("part2", "particula")
 
 })
+
