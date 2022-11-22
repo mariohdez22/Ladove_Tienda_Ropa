@@ -1,7 +1,7 @@
 <?php
 require_once('../../../template/menu-footer.php');
 $url1 = '../../../css/menu-footer.css'; 
-$url2 = '../../../css/hombres/categorias/camisas-hombre.css'; 
+$url2 = '../../../css/hombres/categorias/pantalon-hombre.css'; 
 $link1 = '../../index.php'; 
 $link2 = '../../index.php'; 
 Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
@@ -21,11 +21,11 @@ Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
 
                 <div class="apartado-filtro">
 
-                    <div class="boton"><button id="momjeans">Vestir</button></div>
-                    <div class="boton"><button id="leggins">Jeans</button></div>
-                    <div class="boton"><button id="acampanados">Casuales</button></div>
-                    <div class="boton"><button id="skinny">Deportivos</button></div>
-                    <div class="boton"><button id="sailorjeans">Shorts</button></div>
+                    <div class="boton"><button id="vestir">Vestir</button></div>
+                    <div class="boton"><button id="jeans">Jeans</button></div>
+                    <div class="boton"><button id="casuales">Casuales</button></div>
+                    <div class="boton"><button id="desportivos">Deportivos</button></div>
+                    <div class="boton"><button id="shorts">Shorts</button></div>
 
                 </div>
 
@@ -47,7 +47,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2); // clase de php
 
     </section>
 
-<script src="../../../js/hombres/pantalones/tarjetas-pantalones.js" type="module"></script>
+<script src="../../../js/hombres/pantalones/tarjetas-pantalon.js" type="module"></script>
 
 <?php
 require_once('../../../template/menu-footer.php');

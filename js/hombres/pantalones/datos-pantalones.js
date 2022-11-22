@@ -1,6 +1,6 @@
 export const datosN = 
 [
-    {id: 1, enunciado: 'momrell', img: '../../../multimedia/mom1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (50.40).toFixed(2)},
+    {id: 1, enunciado: 'momrell', img: '../../../multimedia/pantalonh1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (50.40).toFixed(2)},
     {id: 1, enunciado: 'obscurare', img: '../../../multimedia/mom2.jpeg', link:'../../../html/mujeres/ropa-mujer.php', precio: (90.00).toFixed(2)},
     {id: 1, enunciado: 'mache sail', img: '../../../multimedia/sail1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (50.20).toFixed(2)},
     {id: 1, enunciado: 'legcre', img: '../../../multimedia/leg8.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (80.00).toFixed(2)},
@@ -23,7 +23,7 @@ export const datosN =
 
 export const datos1 = 
 [
-    {id: 1, enunciado: 'momrell', img: '../../../multimedia/mom1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.50).toFixed(2)},
+    {id: 1, enunciado: 'momrell', img: '../../../multimedia/pantalonh1.jpeg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.50).toFixed(2)},
     {id: 1, enunciado: 'momoga', img: '../../../multimedia/mom2.jpeg', link:'../../../html/mujeres/ropa-mujer.php', precio: (75.00).toFixed(2)},
     {id: 1, enunciado: 'momte', img: '../../../multimedia/mom3.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (80.40).toFixed(2)},
     {id: 1, enunciado: 'momla', img: '../../../multimedia/mom4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (90.00).toFixed(2)},
