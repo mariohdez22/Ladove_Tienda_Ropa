@@ -1,7 +1,7 @@
 <?php
 require_once('../../../template/menu-footer.php');
 $url1 = '../../../css/menu-footer.css';
-$url2 = '../../../css/ninios/categorias/pantalonesNinios.css';
+$url2 = '../../../css/ninios/categorias/NiniosPantalones.css';
 $link1 = '../../index.php';
 $link2 = '../../index.php';
 Page::headerTemplate($url1, $url2, $link1, $link2);
@@ -22,11 +22,8 @@ Page::headerTemplate($url1, $url2, $link1, $link2);
 
                 <div class="apartado-filtro">
 
-                    <div class="boton"><button id="momjeans">Mom Jeans</button></div>
-                    <div class="boton"><button id="leggins">Leggins</button></div>
-                    <div class="boton"><button id="acampanados">Acampanados</button></div>
-                    <div class="boton"><button id="skinny">Skinny Jeans</button></div>
-                    <div class="boton"><button id="sailorjeans">Sailor Jeans</button></div>
+                    <div class="boton"><button id="pantalonesNiños">Pantalones para niños</button></div>
+                    <div class="boton"><button id="pantalonesNiñas">Pantalones para niñas</button></div>
 
                 </div>
 
@@ -48,7 +45,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2);
 
     </section>
 
-<script src="../../../js/ninio/Pantalones/pantalones.js" type="module"></script>
+<script src="../../../js/ninio/Pantalones/PantalonesTargetas.js" type="module"></script>
 
 
 <?php
