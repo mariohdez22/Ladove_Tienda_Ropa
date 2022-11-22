@@ -23,8 +23,8 @@ export const datosN =
 
 export const datos1 = 
 [
-    {id: 1, enunciado: 're dal', img: '../../../multimedia/re1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.50).toFixed(2)},
-    {id: 1, enunciado: 'watch dd1', img: '../../../multimedia/re2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (75.00).toFixed(2)},
+    {id: 1, enunciado: 're dal', img: '../../../multimedia/br1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.50).toFixed(2)},
+    {id: 1, enunciado: 'watch dd1', img: '../../../multimedia/br2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (75.00).toFixed(2)},
     {id: 1, enunciado: 'z2t', img: '../../../multimedia/re3.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (80.40).toFixed(2)},
     {id: 1, enunciado: 'reloj clait', img: '../../../multimedia/re4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (90.00).toFixed(2)},
 
