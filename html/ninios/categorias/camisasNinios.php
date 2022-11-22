@@ -22,10 +22,10 @@ Page::headerTemplate($url1, $url2, $link1, $link2);
                 <div class="apartado-filtro">
 
                     <div class="boton"><button id="vestido">Vestidos</button></div>
-                    <div class="boton"><button id="camisa">Camisas</button></div>
-                    <div class="boton"><button id="abrigo">Abrigos</button></div>
-                    <div class="boton"><button id="chaqueta">chaquetas</button></div>
-                    <div class="boton"><button id="deportivo">Deportivas</button></div>
+                    <div class="boton"><button id="camisa">Camisas de niñas</button></div>
+                    <div class="boton"><button id="abrigo">Camisas de niños</button></div>
+                    <div class="boton"><button id="chaqueta">Camisas polo de niñas</button></div>
+                    <div class="boton"><button id="deportivo">Camisas polo de niños</button></div>
 
                 </div>
 
