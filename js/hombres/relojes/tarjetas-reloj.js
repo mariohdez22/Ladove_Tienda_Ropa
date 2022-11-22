@@ -1,4 +1,4 @@
-import {datosN, datos1, datos2, datos3, datos4, datos5} from "./datos-pantalones.js"
+import {datosN, datos1, datos2, datos3, datos4, datos5} from "./datos-reloj.js"
 
 const $secciones1 = document.querySelectorAll('.secciones')[0]
 const $secciones2 = document.querySelectorAll('.secciones')[1]
@@ -55,7 +55,7 @@ tarjetas(datosN , "inicial")
 
 //--------------------------------------------------o
 
-const categoria1 = document.getElementById("momjeans") 
+const categoria1 = document.getElementById("Bolsillo") 
 
 categoria1.addEventListener( "click", ()=> {
 
@@ -85,7 +85,7 @@ categoria1.addEventListener( "click", ()=> {
 
 //--------------------------------------------------o
 
-const categoria2 = document.getElementById("leggins")
+const categoria2 = document.getElementById("Analogico")
 
 categoria2.addEventListener( "click", () => {
 
@@ -115,7 +115,7 @@ categoria2.addEventListener( "click", () => {
 
 //--------------------------------------------------o
 
-const categoria3 = document.getElementById("acampanados")
+const categoria3 = document.getElementById("Digital")
 
 categoria3.addEventListener( "click", () => {
 
@@ -145,7 +145,7 @@ categoria3.addEventListener( "click", () => {
 
 //--------------------------------------------------o
 
-const categoria4 = document.getElementById("skinny")
+const categoria4 = document.getElementById("Triple")
 
 categoria4.addEventListener( "click", () => {
 
@@ -160,36 +160,6 @@ categoria4.addEventListener( "click", () => {
     removedorClases(carta3, "cartis")
     const carta4 = document.querySelectorAll(".cartus")
     removedorClases(carta4, "cartus")
-
-    const seccion3 = document.querySelectorAll('.secciones')[2]
-    const seccion4 = document.querySelectorAll('.secciones')[3]
-    seccion3.classList.replace("secciones", "oculto")
-    seccion4.classList.replace("secciones", "oculto")
-
-    const productos = document.querySelector('.productos')
-    const part2 = document.querySelector('.part2')
-    productos.classList.replace("productos", "productas")
-    part2.classList.replace("part2", "particula")
-
-})
-
-//--------------------------------------------------o
-
-const categoria5 = document.getElementById("sailorjeans")
-
-categoria5.addEventListener( "click", () => {
-
-    tarjetas(datos5 , "cartus")
-    const cartaN = document.querySelectorAll(".inicial")
-    removedorClases(cartaN, "inicial")
-    const carta1 = document.querySelectorAll(".cartas")
-    removedorClases(carta1, "cartas")
-    const carta2 = document.querySelectorAll(".cartes")
-    removedorClases(carta2, "cartes")
-    const carta3 = document.querySelectorAll(".cartis")
-    removedorClases(carta3, "cartis")
-    const carta4 = document.querySelectorAll(".cartos")
-    removedorClases(carta4, "cartos")
 
     const seccion3 = document.querySelectorAll('.secciones')[2]
     const seccion4 = document.querySelectorAll('.secciones')[3]

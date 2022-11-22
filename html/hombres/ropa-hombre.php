@@ -48,7 +48,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2);
                     <img src="../../multimedia/ropainteriorhombre.jpg" width="755" height="405" alt="">
                 </div>
                 <div class="ropa6">
-                    <a href="categorias/accesorios-hombre.php">Relojes</a>
+                    <a href="categorias/relojes-hombre.php">Relojes</a>
                     <img src="../../multimedia/relojes.jpg" width="705" height="455" alt="">
                 </div>
             </div>
