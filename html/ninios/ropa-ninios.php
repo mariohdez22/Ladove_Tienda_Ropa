@@ -25,17 +25,17 @@ Page::headerTemplate($url1,$url2,$link1,$link2);
             <div class="pedazo">
                 <div class="ropa1">
                     <a href="categorias/camisasNinios.php">Camisas</a>
-                    <img src="../../multimedia/ninios/niñosCamisas2.png"  width="650" height="450" alt="">
+                    <img src="../../multimedia/ninios/niñosCamisas2.png"  width="720" height="480" alt="">
                 </div>
                 <div class="ropa2">
                     <a href="categorias/pantalonesNinios.php">Pantalones</a>
-                    <img src="../../multimedia/ninios/niñosPantalones.png" width="800" height="470" alt="">
+                    <img src="../../multimedia/ninios/niñosPantalones.png" width="850" height="520" alt="">
                 </div>
             </div>
             <div class="pedazo">
                 <div class="ropa3">
                     <a href="categorias/calzadoNinios.php">Calzado</a>
-                    <img src="../../multimedia/ninios/niñosCalzado.png" width="680" height="450" alt="">
+                    <img src="../../multimedia/ninios/niñosCalzado.png" width="720" height="470" alt="">
                 </div>
                 <div class="ropa4">
                     <a href="categorias/inviernoNinios.php">Ropa de Invierno</a>

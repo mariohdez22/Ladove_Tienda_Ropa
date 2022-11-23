@@ -9,9 +9,9 @@ Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
 ?> 
 
     <span class="redes"> 
-        <div class="red1"></div>
-        <div class="red2"></div>
-        <div class="red3"></div>
+        <div class="red1"><i class="bi bi-twitter"></i></div>
+        <div class="red2"><i class="bi bi-instagram"></i></div>
+        <div class="red3"><i class="bi bi-meta"></i></div>
     </span>
     
     <section>
@@ -23,7 +23,7 @@ Page::headerTemplate($url1, $url2, $link1, $link2);//Hola soy un comentario
             </div>
         </section>
 
-        <section class="presentacion2">
+        <section id="nuevos" class="presentacion2">
             <div class="orden">
                 <h1 class="titulaje">Nuevas prendas acaban de llegar</h1>
             </div>

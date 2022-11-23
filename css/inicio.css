@@ -407,12 +407,29 @@
     background-color: #5fe7ff;
 }
 
+.red1 i
+{
+    transform: translate(19%, 16%);
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+
 .red2
 {
     width: 4.5vw; 
     height: 72px;
     background-color: #ff5f84;
 }
+
+.red2 i
+{
+    transform: translate(18%, 17%);
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+
 
 .red3
 {
@@ -421,3 +438,10 @@
     background-color: #6a5fff;
 }
 
+.red3 i
+{
+    transform: translate(18%, 13%);
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
