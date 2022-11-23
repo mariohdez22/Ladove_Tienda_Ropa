@@ -8,10 +8,10 @@ export const datosN =
     {id: 2, enunciado: 'acampanadi', img: '../../../multimedia/acam1.jpeg', link:'../../../html/mujeres/ropa-mujer.php', precio: (30.50).toFixed(2)},
     {id: 2, enunciado: 'sailsky', img: '../../../multimedia/sail2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (40.00).toFixed(2)},
     {id: 2, enunciado: 'legro', img: '../../../multimedia/leg3.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.40).toFixed(2)},
-    {id: 2, enunciado: 'aca chill', img: '../../../multimedia/acam2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (90.00).toFixed(2)},
+    {id: 2, enunciado: 'ac chill', img: '../../../multimedia/acam2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (90.00).toFixed(2)},
 
     {id: 3, enunciado: 'momte', img: '../../../multimedia/mom3.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (30.50).toFixed(2)},
-    {id: 3, enunciado: 'large acam', img: '../../../multimedia/cam7.jpeg', link:'../../../html/mujeres/ropa-mujer.php', precio: (40.00).toFixed(2)},
+    {id: 3, enunciado: 'lar acam', img: '../../../multimedia/cam7.jpeg', link:'../../../html/mujeres/ropa-mujer.php', precio: (40.00).toFixed(2)},
     {id: 3, enunciado: 'legriz', img: '../../../multimedia/leg4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.40).toFixed(2)},
     {id: 3, enunciado: 'sailk', img: '../../../multimedia/sail4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (90.00).toFixed(2)},
 
