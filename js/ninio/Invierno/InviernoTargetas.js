@@ -6,6 +6,11 @@ const $secciones3 = document.querySelectorAll('.secciones')[2]
 const $secciones4 = document.querySelectorAll('.secciones')[3]
 
 let cat1Init = false
+let cat2Init = false
+let cat3Init = false
+let cat4Init = false
+let cat5Init = false
+let cat6Init = false
 let seccionHide = false;
 
 const tarjetas = (matriz, clase) =>
@@ -62,6 +67,12 @@ const categoria1 = document.getElementById("gorrosNiños")
 
 categoria1.addEventListener( "click", ()=> {
 
+    cat2Init = false
+    cat3Init = false
+    cat4Init = false
+    cat5Init = false
+    cat6Init = false
+
     if(!cat1Init){
         tarjetas(datos1 , "cartas")
         const cartaN = document.querySelectorAll(".inicial")
@@ -92,24 +103,6 @@ categoria1.addEventListener( "click", ()=> {
         }
 
         cat1Init = true;
-    }else{
-
-        const cartaInit = document.querySelectorAll(".cartas")
-        removedorClases(cartaInit, "cartas")
-
-        tarjetas(datos1 , "cartas")
-        const cartaN = document.querySelectorAll(".inicial")
-        removedorClases(cartaN, "inicial")
-        const carta1 = document.querySelectorAll(".cartes")
-        removedorClases(carta1, "cartes")
-        const carta2 = document.querySelectorAll(".cartis")
-        removedorClases(carta2, "cartis")
-        const carta3 = document.querySelectorAll(".cartos")
-        removedorClases(carta3, "cartos")
-        const carta4 = document.querySelectorAll(".cartus")
-        removedorClases(carta4, "cartus")
-        const carta6 = document.querySelectorAll(".certas")
-        removedorClases(carta6, "cartus")
     }
 
 })
@@ -121,34 +114,43 @@ const categoria2 = document.getElementById("gorrosNiñas")
 categoria2.addEventListener( "click", () => {
 
     cat1Init = false
+    cat3Init = false
+    cat4Init = false
+    cat5Init = false
+    cat6Init = false
 
-    tarjetas(datos2 , "cartes")
-    const cartaN = document.querySelectorAll(".inicial")
-    removedorClases(cartaN, "inicial")
-    const carta1 = document.querySelectorAll(".cartas")
-    removedorClases(carta1, "cartas")
-    const carta2 = document.querySelectorAll(".cartis")
-    removedorClases(carta2, "cartis")
-    const carta3 = document.querySelectorAll(".cartos")
-    removedorClases(carta3, "cartos")
-    const carta4 = document.querySelectorAll(".cartus")
-    removedorClases(carta4, "cartus")
-    const carta6 = document.querySelectorAll(".certas")
-    removedorClases(carta6, "cartus")
-
-    if(!seccionHide){
-        const seccion3 = document.querySelectorAll('.secciones')[2]
-        const seccion4 = document.querySelectorAll('.secciones')[3]
-        seccion3.classList.replace("secciones", "oculto")
-        seccion4.classList.replace("secciones", "oculto")
+    if(!cat2Init){
+        tarjetas(datos2 , "cartes")
+        const cartaN = document.querySelectorAll(".inicial")
+        removedorClases(cartaN, "inicial")
+        const carta1 = document.querySelectorAll(".cartas")
+        removedorClases(carta1, "cartas")
+        const carta2 = document.querySelectorAll(".cartis")
+        removedorClases(carta2, "cartis")
+        const carta3 = document.querySelectorAll(".cartos")
+        removedorClases(carta3, "cartos")
+        const carta4 = document.querySelectorAll(".cartus")
+        removedorClases(carta4, "cartus")
+        const carta6 = document.querySelectorAll(".certas")
+        removedorClases(carta6, "cartus")
     
-        const productos = document.querySelector('.productos')
-        const part2 = document.querySelector('.part2')
-        productos.classList.replace("productos", "productas")
-        part2.classList.replace("part2", "particula")
+        if(!seccionHide){
+            const seccion3 = document.querySelectorAll('.secciones')[2]
+            const seccion4 = document.querySelectorAll('.secciones')[3]
+            seccion3.classList.replace("secciones", "oculto")
+            seccion4.classList.replace("secciones", "oculto")
+        
+            const productos = document.querySelector('.productos')
+            const part2 = document.querySelector('.part2')
+            productos.classList.replace("productos", "productas")
+            part2.classList.replace("part2", "particula")
+    
+            seccionHide = true;
+        }
 
-        seccionHide = true;
+        cat2Init = true;
     }
+
 
 })
 
@@ -158,33 +160,43 @@ const categoria3 = document.getElementById("suetersNiños")
 
 categoria3.addEventListener( "click", () => {
 
-    tarjetas(datos3 , "cartis")
-    const cartaN = document.querySelectorAll(".inicial")
-    removedorClases(cartaN, "inicial")
-    const carta1 = document.querySelectorAll(".cartas")
-    removedorClases(carta1, "cartas")
-    const carta2 = document.querySelectorAll(".cartes")
-    removedorClases(carta2, "cartes")
-    const carta3 = document.querySelectorAll(".cartos")
-    removedorClases(carta3, "cartos")
-    const carta4 = document.querySelectorAll(".cartus")
-    removedorClases(carta4, "cartus")
-    const carta6 = document.querySelectorAll(".certas")
-    removedorClases(carta6, "cartus")
+    cat1Init = false
+    cat2Init = false
+    cat4Init = false
+    cat5Init = false
+    cat6Init = false
 
-    if(!seccionHide){
-        const seccion3 = document.querySelectorAll('.secciones')[2]
-        const seccion4 = document.querySelectorAll('.secciones')[3]
-        seccion3.classList.replace("secciones", "oculto")
-        seccion4.classList.replace("secciones", "oculto")
+    if(!cat3Init){
+        tarjetas(datos3 , "cartis")
+        const cartaN = document.querySelectorAll(".inicial")
+        removedorClases(cartaN, "inicial")
+        const carta1 = document.querySelectorAll(".cartas")
+        removedorClases(carta1, "cartas")
+        const carta2 = document.querySelectorAll(".cartes")
+        removedorClases(carta2, "cartes")
+        const carta3 = document.querySelectorAll(".cartos")
+        removedorClases(carta3, "cartos")
+        const carta4 = document.querySelectorAll(".cartus")
+        removedorClases(carta4, "cartus")
+        const carta6 = document.querySelectorAll(".certas")
+        removedorClases(carta6, "cartus")
     
-        const productos = document.querySelector('.productos')
-        const part2 = document.querySelector('.part2')
-        productos.classList.replace("productos", "productas")
-        part2.classList.replace("part2", "particula")
-
-        seccionHide = true;
+        if(!seccionHide){
+            const seccion3 = document.querySelectorAll('.secciones')[2]
+            const seccion4 = document.querySelectorAll('.secciones')[3]
+            seccion3.classList.replace("secciones", "oculto")
+            seccion4.classList.replace("secciones", "oculto")
+        
+            const productos = document.querySelector('.productos')
+            const part2 = document.querySelector('.part2')
+            productos.classList.replace("productos", "productas")
+            part2.classList.replace("part2", "particula")
+    
+            seccionHide = true
+        }
     }
+
+    cat3Init = true
 
 })
 
@@ -194,33 +206,43 @@ const categoria4 = document.getElementById("suetersNiñas")
 
 categoria4.addEventListener( "click", () => {
 
-    tarjetas(datos4 , "cartos")
-    const cartaN = document.querySelectorAll(".inicial")
-    removedorClases(cartaN, "inicial")
-    const carta1 = document.querySelectorAll(".cartas")
-    removedorClases(carta1, "cartas")
-    const carta2 = document.querySelectorAll(".cartes")
-    removedorClases(carta2, "cartes")
-    const carta3 = document.querySelectorAll(".cartis")
-    removedorClases(carta3, "cartis")
-    const carta4 = document.querySelectorAll(".cartus")
-    removedorClases(carta4, "cartus")
-    const carta6 = document.querySelectorAll(".certas")
-    removedorClases(carta6, "cartus")
+    cat1Init = false
+    cat2Init = false
+    cat3Init = false
+    cat5Init = false
+    cat6Init = false
 
-    if(!seccionHide){
-        const seccion3 = document.querySelectorAll('.secciones')[2]
-        const seccion4 = document.querySelectorAll('.secciones')[3]
-        seccion3.classList.replace("secciones", "oculto")
-        seccion4.classList.replace("secciones", "oculto")
+    if(!cat4Init){
+        tarjetas(datos4 , "cartos")
+        const cartaN = document.querySelectorAll(".inicial")
+        removedorClases(cartaN, "inicial")
+        const carta1 = document.querySelectorAll(".cartas")
+        removedorClases(carta1, "cartas")
+        const carta2 = document.querySelectorAll(".cartes")
+        removedorClases(carta2, "cartes")
+        const carta3 = document.querySelectorAll(".cartis")
+        removedorClases(carta3, "cartis")
+        const carta4 = document.querySelectorAll(".cartus")
+        removedorClases(carta4, "cartus")
+        const carta6 = document.querySelectorAll(".certas")
+        removedorClases(carta6, "cartus")
     
-        const productos = document.querySelector('.productos')
-        const part2 = document.querySelector('.part2')
-        productos.classList.replace("productos", "productas")
-        part2.classList.replace("part2", "particula")
-
-        seccionHide = true;
+        if(!seccionHide){
+            const seccion3 = document.querySelectorAll('.secciones')[2]
+            const seccion4 = document.querySelectorAll('.secciones')[3]
+            seccion3.classList.replace("secciones", "oculto")
+            seccion4.classList.replace("secciones", "oculto")
+        
+            const productos = document.querySelector('.productos')
+            const part2 = document.querySelector('.part2')
+            productos.classList.replace("productos", "productas")
+            part2.classList.replace("part2", "particula")
+    
+            seccionHide = true
+        }
     }
+
+    cat4Init = true
 
 })
 
@@ -230,33 +252,44 @@ const categoria5 = document.getElementById("guantesNiños")
 
 categoria5.addEventListener( "click", () => {
 
-    tarjetas(datos5 , "cartus")
-    const cartaN = document.querySelectorAll(".inicial")
-    removedorClases(cartaN, "inicial")
-    const carta1 = document.querySelectorAll(".cartas")
-    removedorClases(carta1, "cartas")
-    const carta2 = document.querySelectorAll(".cartes")
-    removedorClases(carta2, "cartes")
-    const carta3 = document.querySelectorAll(".cartis")
-    removedorClases(carta3, "cartis")
-    const carta4 = document.querySelectorAll(".cartos")
-    removedorClases(carta4, "cartos")
-    const carta6 = document.querySelectorAll(".certas")
-    removedorClases(carta6, "cartus")
+    cat1Init = false
+    cat2Init = false
+    cat3Init = false
+    cat4Init = false
+    cat6Init = false
 
-    if(!seccionHide){
-        const seccion3 = document.querySelectorAll('.secciones')[2]
-        const seccion4 = document.querySelectorAll('.secciones')[3]
-        seccion3.classList.replace("secciones", "oculto")
-        seccion4.classList.replace("secciones", "oculto")
+    if(!cat5Init){
+        tarjetas(datos5 , "cartus")
+        const cartaN = document.querySelectorAll(".inicial")
+        removedorClases(cartaN, "inicial")
+        const carta1 = document.querySelectorAll(".cartas")
+        removedorClases(carta1, "cartas")
+        const carta2 = document.querySelectorAll(".cartes")
+        removedorClases(carta2, "cartes")
+        const carta3 = document.querySelectorAll(".cartis")
+        removedorClases(carta3, "cartis")
+        const carta4 = document.querySelectorAll(".cartos")
+        removedorClases(carta4, "cartos")
+        const carta6 = document.querySelectorAll(".certas")
+        removedorClases(carta6, "cartus")
     
-        const productos = document.querySelector('.productos')
-        const part2 = document.querySelector('.part2')
-        productos.classList.replace("productos", "productas")
-        part2.classList.replace("part2", "particula")
-
-        seccionHide = true;
+        if(!seccionHide){
+            const seccion3 = document.querySelectorAll('.secciones')[2]
+            const seccion4 = document.querySelectorAll('.secciones')[3]
+            seccion3.classList.replace("secciones", "oculto")
+            seccion4.classList.replace("secciones", "oculto")
+        
+            const productos = document.querySelector('.productos')
+            const part2 = document.querySelector('.part2')
+            productos.classList.replace("productos", "productas")
+            part2.classList.replace("part2", "particula")
+    
+            seccionHide = true
+        }
+    
     }
+
+    cat5Init = true
 
 })
 
@@ -266,32 +299,42 @@ const categoria6 = document.getElementById("guantesNiñas")
 
 categoria6.addEventListener( "click", () => {
 
-    tarjetas(datos6 , "certas")
-    const cartaN = document.querySelectorAll(".inicial")
-    removedorClases(cartaN, "inicial")
-    const carta1 = document.querySelectorAll(".cartas")
-    removedorClases(carta1, "cartas")
-    const carta2 = document.querySelectorAll(".cartes")
-    removedorClases(carta2, "cartes")
-    const carta3 = document.querySelectorAll(".cartis")
-    removedorClases(carta3, "cartis")
-    const carta4 = document.querySelectorAll(".cartos")
-    removedorClases(carta4, "cartos")
-    const carta5 = document.querySelectorAll(".cartus")
-    removedorClases(carta5, "cartus")
+    cat1Init = false
+    cat2Init = false
+    cat3Init = false
+    cat4Init = false
+    cat5Init = false
 
-    if(!seccionHide){
-        const seccion3 = document.querySelectorAll('.secciones')[2]
-        const seccion4 = document.querySelectorAll('.secciones')[3]
-        seccion3.classList.replace("secciones", "oculto")
-        seccion4.classList.replace("secciones", "oculto")
+    if(!cat6Init){
+        tarjetas(datos6 , "certas")
+        const cartaN = document.querySelectorAll(".inicial")
+        removedorClases(cartaN, "inicial")
+        const carta1 = document.querySelectorAll(".cartas")
+        removedorClases(carta1, "cartas")
+        const carta2 = document.querySelectorAll(".cartes")
+        removedorClases(carta2, "cartes")
+        const carta3 = document.querySelectorAll(".cartis")
+        removedorClases(carta3, "cartis")
+        const carta4 = document.querySelectorAll(".cartos")
+        removedorClases(carta4, "cartos")
+        const carta5 = document.querySelectorAll(".cartus")
+        removedorClases(carta5, "cartus")
     
-        const productos = document.querySelector('.productos')
-        const part2 = document.querySelector('.part2')
-        productos.classList.replace("productos", "productas")
-        part2.classList.replace("part2", "particula")
-
-        seccionHide = true;
+        if(!seccionHide){
+            const seccion3 = document.querySelectorAll('.secciones')[2]
+            const seccion4 = document.querySelectorAll('.secciones')[3]
+            seccion3.classList.replace("secciones", "oculto")
+            seccion4.classList.replace("secciones", "oculto")
+        
+            const productos = document.querySelector('.productos')
+            const part2 = document.querySelector('.part2')
+            productos.classList.replace("productos", "productas")
+            part2.classList.replace("part2", "particula")
+    
+            seccionHide = true;
+        }
     }
+
+    cat6Init = true;
 
 })
