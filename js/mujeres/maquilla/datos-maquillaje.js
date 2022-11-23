@@ -12,7 +12,7 @@ export const datosN =
 
     {id: 3, enunciado: 'Itzal', img: '../../../multimedia/ba1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (3.50).toFixed(2)},
     {id: 3, enunciado: 'Chic', img: '../../../multimedia/lab2.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (4.00).toFixed(2)},
-    {id: 3, enunciado: 'Ambar', img: '../../../multimedia/ba8/.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.40).toFixed(2)},
+    {id: 3, enunciado: 'Ambar', img: '../../../multimedia/ba8.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (70.40).toFixed(2)},
     {id: 3, enunciado: 'Blom', img: '../../../multimedia/bro4.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (19.00).toFixed(2)},
 
     {id: 4, enunciado: 'Bella', img: '../../../multimedia/bro1.jpg', link:'../../../html/mujeres/ropa-mujer.php', precio: (15.50).toFixed(2)},
