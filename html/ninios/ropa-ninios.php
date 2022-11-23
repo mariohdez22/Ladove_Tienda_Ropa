@@ -38,7 +38,7 @@ Page::headerTemplate($url1,$url2,$link1,$link2);
                     <img src="../../multimedia/ninios/niñosCalzado.png" width="680" height="450" alt="">
                 </div>
                 <div class="ropa4">
-                    <a href="">Ropa de Invierno</a>
+                    <a href="categorias/inviernoNinios.php">Ropa de Invierno</a>
                     <img src="../../multimedia/ninios/niñosInvierno2.png" width="705" height="325" alt="">
                 </div>
             </div>
